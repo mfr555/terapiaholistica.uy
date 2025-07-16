@@ -14,9 +14,9 @@
   <section class="main-banner" id="top">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 align-self-center">
+        <div class="col-lg-4 align-self-center">
           <div class="header-text">
-            <img src="assets/logo/completo.svg" alt="Terapia Holística Sebastián Durán">
+            <img class="logo-header" src="assets/logo/4.svg" alt="Terapia Holística Sebastián Durán">
             <div class="main-button-gradient">
               <div class="scroll-to-section"><a href="#contact-section">Contáctanos!</a></div>
             </div>
@@ -24,7 +24,7 @@
         </div>
         <div class="col-lg-6">
           <div class="right-image">
-            <img src="assets/images/head-img1.webp" alt="Flores de Bach">
+            <img src="assets/images/hoja-toallas.webp" alt="Flores de Bach">
           </div>
         </div>
       </div>
@@ -76,16 +76,17 @@
                             Trabajo con tres sistemas florales reconocidos por su profundidad y especificidad:
                             </p>
                             <ul class="list-unstyled">
-                            <h5>Sistema Bach</h5>
-                              <p>El sistema clásico, creado por el Dr. Edward Bach en Inglaterra. Se enfoca en armonizar emociones básicas como el miedo, la tristeza, la indecisión, la culpa o la falta de confianza.
-                            </p>
-                            <h5>Sistema California</h5>
-                              <p>Más contemporáneo, este sistema trabaja emociones relacionadas con vínculos, autoestima, creatividad, trauma infantil o procesos de cambio profundo.
-                            </p>
-                            <h5>Sistema Bush (australiano)</h5>
-                              <p>Especializado en emociones más actuales, dinámicas familiares, adaptación al entorno, claridad mental y conexión espiritual.
-                            </p>
-                            </li>
+                              <li>
+                              <h5>Sistema Bach</h5>
+                                <p>El sistema clásico, creado por el Dr. Edward Bach en Inglaterra. Se enfoca en armonizar emociones básicas como el miedo, la tristeza, la indecisión, la culpa o la falta de confianza.
+                              </p>
+                              <h5>Sistema California</h5>
+                                <p>Más contemporáneo, este sistema trabaja emociones relacionadas con vínculos, autoestima, creatividad, trauma infantil o procesos de cambio profundo.
+                              </p>
+                              <h5>Sistema Bush (australiano)</h5>
+                                <p>Especializado en emociones más actuales, dinámicas familiares, adaptación al entorno, claridad mental y conexión espiritual.
+                              </p>
+                              </li>
                             </ul>
                             <p>
                               A veces uso un solo sistema, y en otros casos los combino según la complejidad de la consulta.

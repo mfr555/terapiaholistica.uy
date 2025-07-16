@@ -4,7 +4,8 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <a href="index.html" class="logo">
-                        <img src="assets/logo/square-text.svg" alt="Terapia Holística Sebastián Durán" style="width: 285px;">
+                        <img src="assets/logo/6-white.svg" alt="Logotipo" style="width: 70px;">
+                        <img src="assets/logo/8-white.svg" alt="Terapia Holística Sebastián Durán" style="width: 100px;">
                     </a>
                     
                     <ul class="nav">
