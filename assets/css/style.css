@@ -30,6 +30,7 @@ reset
   /* Colores Greenery */
   --g-light: #f7eae0;
   --g-gray: #535e51;
+  --g-light-gray: #8a9382;
   --g-dark: #1e1e24;
   --g-primary: #83a962;
   --g-secondary: #b9b884;
@@ -708,10 +709,11 @@ section.main-banner {
 .main-banner .right-image::after {
   position: absolute;
   background-image: url(../images/circle-dots.svg);
-  width: 378px;
-  height: 378px;
+  width: 500px;
+  height: 500px;
   content: '';
-  right: -30%;
+  right: -40%;
+  top: -15%;
   z-index: 1;
 }
 
@@ -833,17 +835,6 @@ section.our-courses:before {
   z-index: 1;
 }
 
-section.our-courses:after {
-  position: absolute;
-  content: '';
-  background-image: url(../images/our-courses-right-dec.png);
-  right: 45px;
-  top: -140px;
-  width: 291px;
-  height: 231px;
-  z-index: 1;
-}
-
 section.our-courses .naccs {
   position: relative;
 }
@@ -892,6 +883,59 @@ section.our-courses ul.nacc li {
   padding-right: 50px;
 }
 
+section.our-courses .card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  max-width: 1200px;
+  margin-bottom: 100px;
+  transition: ease-in-out 0.3s;
+}
+section.our-courses .card .left-image {
+  border-radius: 15px;
+}
+
+@media (max-width: 767px) {
+  section.our-courses .card .left-image {
+    height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+  }
+}
+
+section.our-courses .card-body {
+  padding: 40px;
+}
+
+section.our-courses .card-body h4 {
+  font-size: 20px;
+  color: var(--g-gray);
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+section.our-courses .card-body h5 {
+  font-size: 16px;
+  color: var(--g-light-gray);
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+section.our-courses .card-body p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #4a4a4a;
+}
+
+section.our-courses .card-body li {
+  list-style-type: disc !important;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #4a4a4a;
+}
+
 section.our-courses ul.nacc li .left-image {
   position: absolute;
   margin-right: 50px;
@@ -933,7 +977,7 @@ section.our-courses ul.nacc li .right-content h4 {
 
 section.our-courses ul.nacc li .right-content h5 {
   font-size: 16px;
-  color: #999999);
+  color: #999999;
   margin-bottom: 8px;
   font-weight: 600;
 }
@@ -1190,16 +1234,15 @@ section.contact-us .contact-info span {
 }
 
 section.contact-us .section-heading {
-  text-align: left;
   margin-bottom: 40px;
 }
 
 section.contact-us #contact {
-  margin-left: -100px;
+  /*margin-left: -100px;
+  margin-top: 40px;*/
   position: relative;
   z-index: 5;
   background-color: #fff;
-  margin-top: 40px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
   padding: 40px;
@@ -1236,7 +1279,7 @@ section.contact-us #contact textarea {
   margin-bottom: 30px;
 }
 
-section.contact-us #contact button {
+section.contact-us #contact .main-gradient-button {
   float: right;
   font-size: 13px;
   color: #fff;
@@ -1794,7 +1837,7 @@ body {
     font-size: 62px;
   }
   .header-area {
-    background: linear-gradient(-145deg, var(--g-dark) 0%, var(--g-gray) 100%) !important;
+    background: linear-gradient(-145deg, var(--g-primary) 0%, var(--g-gray) 100%) !important;
   }
   .services .owl-nav .owl-next{
     right: -70px;

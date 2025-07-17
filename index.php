@@ -41,130 +41,239 @@
             <p>Todo lo que necesitas saber sobre nuestras terapias.</p>
           </div>
         </div>
-        <div class="col-lg-12">
-          <div class="naccs">
-            <div class="tabs">
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="menu">
-                    <div class="active gradient-border"><span>Terapia Floral Integrada</span></div>
-                    <div class="gradient-border"><span>Reiki</span></div>
-                    <div class="gradient-border"><span>Sesiones Combinadas</span></div>
-                  </div>
+
+        <div class="d-flex justify-content-center row">
+          <div class="card col-12">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/images/courses-01.jpg" class="left-image img-fluid" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Terapia Floral Integrada</h4>
+                  <h5>¿Qué es la Terapia Floral?</h5>
+                  <!--p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p-->
+
+                  
+                   
+                      <p>
+                      La terapia floral es un método natural que utiliza esencias extraídas de flores silvestres para equilibrar emociones, pensamientos y estados de ánimo. No actúa sobre el cuerpo físico, sino sobre el campo energético y emocional de la persona, ayudando a armonizar desde adentro hacia afuera.
+                      Es una herramienta segura, sin contraindicaciones ni efectos secundarios, compatible con cualquier tratamiento médico o terapéutico.
+                      </p>
+                      
+                      <h5>¿Cómo trabajo?</h5>
+                      <p>
+                      En cada consulta, realizo una entrevista personalizada en un espacio de escucha y confianza. A partir de lo que la persona comparte, selecciono las esencias más adecuadas según su estado emocional y sus necesidades actuales.
+                      </p>
+                      <p>
+                      Trabajo con tres sistemas florales reconocidos por su profundidad y especificidad:
+                      </p>
+                      <h5>Sistema Bach</h5>
+                        <p>El sistema clásico, creado por el Dr. Edward Bach en Inglaterra. Se enfoca en armonizar emociones básicas como el miedo, la tristeza, la indecisión, la culpa o la falta de confianza.
+                      </p>
+                      <h5>Sistema California</h5>
+                        <p>Más contemporáneo, este sistema trabaja emociones relacionadas con vínculos, autoestima, creatividad, trauma infantil o procesos de cambio profundo.
+                      </p>
+                      <h5>Sistema Bush (australiano)</h5>
+                        <p>Especializado en emociones más actuales, dinámicas familiares, adaptación al entorno, claridad mental y conexión espiritual.
+                      </p>
+                      <p>
+                        A veces uso un solo sistema, y en otros casos los combino según la complejidad de la consulta.
+                      </p>
+                      
+                      <h5>¿Para qué puede ayudarte?</h5>
+                      <ul>
+                        <li>Ansiedad, estrés o insomnio</li>
+                        <li>Cambios importantes en la vida</li>
+                        <li>Duelos y pérdidas</li>
+                        <li>Miedos o fobias</li>
+                        <li>Baja autoestima o falta de motivación</li>
+                        <li>Tristeza profunda o desgano</li>
+                        <li>Dificultades en relaciones</li>
+                        <li>Procesos de sanación física o emocional</li>
+                      </ul>
+                      
+                      <h5>Modalidad de atención</h5>
+                      <ul>
+                        <li>Consultas presenciales y online</li>
+                        <li>Atención personalizada y con seguimiento</li>
+                        <li>Turnos coordinados previamente por WhatsApp o correo</li>
+                      </ul>
+                      
+                      <h5>En palabras simples</h5>
+                      <p>
+                      La Terapia Floral no cambia lo que vivís, pero sí cómo lo vivís. Te ayuda a atravesar tus procesos con más claridad, serenidad y fuerza interior.
+                      </p>
+                  
                 </div>
-                <div class="col-lg-9">
-                  <ul class="nacc">
-                    <li class="active">
-                      <div>
-                        <div class="left-image">
-                          <img src="assets/images/courses-01.jpg" alt="">
-                          <!--div class="price"><h6>$128</h6></div-->
-                        </div>
-                        <div class="right-content">
-                          <h4>Terapia Floral Integrada</h4>
-                          <h5>¿Qué es la Terapia Floral?</h5>
-                            <p>
-                            La terapia floral es un método natural que utiliza esencias extraídas de flores silvestres para equilibrar emociones, pensamientos y estados de ánimo. No actúa sobre el cuerpo físico, sino sobre el campo energético y emocional de la persona, ayudando a armonizar desde adentro hacia afuera.
-                            Es una herramienta segura, sin contraindicaciones ni efectos secundarios, compatible con cualquier tratamiento médico o terapéutico.
-                            </p>
-                            
-                            <h5>¿Cómo trabajo?</h5>
-                            <p>
-                            En cada consulta, realizo una entrevista personalizada en un espacio de escucha y confianza. A partir de lo que la persona comparte, selecciono las esencias más adecuadas según su estado emocional y sus necesidades actuales.
-                            </p>
-                            <p>
-                            Trabajo con tres sistemas florales reconocidos por su profundidad y especificidad:
-                            </p>
-                            <ul class="list-unstyled">
-                              <li>
-                              <h5>Sistema Bach</h5>
-                                <p>El sistema clásico, creado por el Dr. Edward Bach en Inglaterra. Se enfoca en armonizar emociones básicas como el miedo, la tristeza, la indecisión, la culpa o la falta de confianza.
-                              </p>
-                              <h5>Sistema California</h5>
-                                <p>Más contemporáneo, este sistema trabaja emociones relacionadas con vínculos, autoestima, creatividad, trauma infantil o procesos de cambio profundo.
-                              </p>
-                              <h5>Sistema Bush (australiano)</h5>
-                                <p>Especializado en emociones más actuales, dinámicas familiares, adaptación al entorno, claridad mental y conexión espiritual.
-                              </p>
-                              </li>
-                            </ul>
-                            <p>
-                              A veces uso un solo sistema, y en otros casos los combino según la complejidad de la consulta.
-                            </p>
-                            
-                            <h5>¿Para qué puede ayudarte?</h5>
-                            <ul class="list-unstyled">
-                              <li>Ansiedad, estrés o insomnio</li>
-                              <li>Cambios importantes en la vida</li>
-                              <li>Duelos y pérdidas</li>
-                              <li>Miedos o fobias</li>
-                              <li>Baja autoestima o falta de motivación</li>
-                              <li>Tristeza profunda o desgano</li>
-                              <li>Dificultades en relaciones</li>
-                              <li>Procesos de sanación física o emocional</li>
-                            </ul>
-                            
-                            <h5>Modalidad de atención</h5>
-                            <ul class="list-unstyled">
-                              <li>Consultas presenciales y online</li>
-                              <li>Atención personalizada y con seguimiento</li>
-                              <li>Turnos coordinados previamente por WhatsApp o correo</li>
-                            </ul>
-                            
-                            <h5>En palabras simples</h5>
-                            <p>
-                            La Terapia Floral no cambia lo que vivís, pero sí cómo lo vivís. Te ayuda a atravesar tus procesos con más claridad, serenidad y fuerza interior.
-                            </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="left-image">
-                          <img src="assets/images/courses-02.jpg" alt="">
-                        </div>
-                        <div class="right-content">
-                          <h4>Reiki</h4>
-                          <p>
-                           Técnica japonesa de canalización energética a través de las manos. 
-                           El Reiki armoniza el cuerpo, la mente y el espíritu, ayudando a liberar 
-                           tensiones, reducir el estrés y activar la capacidad natural de autosanación. 
-                          </p>
-                          <span>48 Hours</span>
-                          <span>6 Weeks</span>
-                          <span class="last-span">1 Certificate</span>
-                          <div class="text-button">
-                            <a href="contact-us.html">Subscribe Course</a>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="left-image">
-                          <img src="assets/images/courses-03.jpg" alt="">
-                        </div>
-                        <div class="right-content">
-                          <h4>Terapia Floral Integrada</h4>
-                          <p>
-                            Reiki y Terapia Floral pueden integrarse para potenciar sus efectos. 
-                            Esta modalidad permite trabajar desde lo emocional y lo energético en una misma consulta.
-                          </p>
-                          <span>28 Hours</span>
-                          <span>4 Weeks</span>
-                          <span class="last-span">1 Certificate</span>
-                          <div class="text-button">
-                            <a href="contact-us.html">Subscribe Course</a>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    </ul>
+              </div>
+            </div>
+          </div>  
+          
+          <div class="card col-12">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/images/courses-01.jpg" class="left-image img-fluid" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Reiki</h4>
+                  <h5>¿Qué es el Reiki?</h5>
+                  <p>
+                    Reiki es una técnica japonesa de sanación natural que utiliza la imposición de manos 
+                    para canalizar energía vital. Esta energía actúa sobre el cuerpo físico, emocional, 
+                    mental y espiritual, promoviendo la relajación profunda, el equilibrio interior y la 
+                    activación de la capacidad natural de autosanación que todos tenemos.
+                  </p>
+
+                  <h5>La palabra Reiki significa:</h5>
+                  <ul>
+                    <li><b>Rei</b>: energía universal</li>
+                    <li><b>Ki</b>: energía vital que fluye en todo ser vivo</li>
+                  </ul>
+
+                  <p>
+                    Es una práctica segura, no invasiva y complementaria a cualquier tratamiento médico o psicológico.
+                  </p>
+
+                  <h5>¿Cómo funciona una sesión?</h5>
+
+                  <p>
+                    Durante la sesión, la persona se recuesta en una camilla y entra en un estado de relajación 
+                    profunda mientras el terapeuta aplica sus manos en diferentes puntos del cuerpo, permitiendo 
+                    que la energía fluya hacia donde más se necesita.
+                  </p>
+
+                  <h5>Cada sesión puede generar sensaciones como:</h5>
+                  <ul>
+                    <li>Calor o frío en ciertas zonas</li>
+                    <li>Liberación emocional</li>
+                    <li>Profunda paz interior</li>
+                    <li>Sueño reparador</li>
+                  </ul>
+
+                  <p><i>Al finalizar, muchas personas expresan sentirse más livianas, centradas y en calma.</i></p>
+
+                  <h5>Reiki presencial</h5>
+                  <p>
+                    Las sesiones presenciales se realizan en un ambiente tranquilo, con música suave y aromas 
+                    que invitan al descanso y a la conexión con uno mismo.
+                  </p>
+                  <p>Es ideal si buscás:</p>
+                  <ul>
+                    <li>Reducir el estrés y la ansiedad</li>
+                    <li>Acompañar procesos emocionales o físicos</li>
+                    <li>Mejorar el descanso</li>
+                    <li>Equilibrar tus centros energéticos (chakras)</li>
+                  </ul>
+
+                  <h5>Reiki a distancia</h5>
+                  <p>
+                    El Reiki no está limitado por el espacio. También puede enviarse a distancia, con la misma 
+                    efectividad, ya que la energía no necesita contacto físico para actuar.
+                  </p>
+                  <p>Solo se requiere:</p>
+                  <ul>
+                    <li>Un nombre completo y una breve intención (motivo de la sesión)</li>
+                    <li>Un horario acordado en el que la persona pueda estar tranquila y receptiva</li>
+                  </ul>
+                  
+                  <p>
+                    Se puede realizar desde cualquier lugar del mundo, y es especialmente útil en situaciones donde 
+                    la persona no puede asistir presencialmente, o para niños, personas hospitalizadas o con movilidad reducida.
+                  </p>
+                  
+                  <h5>Beneficios del Reiki</h5>
+                  <ul>                    
+                    <li>Relajación profunda</li>
+                    <li>Alivio del dolor físico</li>
+                    <li>Mejora del sueño</li>
+                    <li>Claridad mental y emocional</li>
+                    <li>Fortalecimiento del sistema inmunológico</li>
+                    <li>Acompañamiento en procesos de duelo, crisis o enfermedad</li>
+                  </ul>
+
+                  <h5>Modalidad de atención</h5>
+                  <ul>
+                    <li>Presencial: en espacio terapéutico armonizado, con cita previa</li>
+                    <li>A distancia: envío de energía programada, con preparación previa</li>
+                    <li>Sesiones individuales o combinadas con Terapia Floral</li>
+                  </ul>
+
+                  <h5>Una experiencia de reconexión</h5>
+                  <p>
+                    Reiki te invita a detenerte, respirar y volver al centro. Es un regalo para vos mismo/a, 
+                    una forma de volver a tu eje cuando la vida se desordena.  
+                  </p>                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-12">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/images/courses-01.jpg" class="left-image img-fluid" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Sesiones combinadas</h4>
+                  <h5>Un enfoque integrador para tu bienestar</h5>
+                  <p>
+                    Las sesiones combinadas integran dos herramientas terapéuticas complementarias: Reiki y Terapia Floral.  
+                  </p>
+                  <p>
+                    Mientras el Reiki actúa sobre el campo energético y ayuda a liberar bloqueos o tensiones internas, 
+                    las flores trabajan a nivel emocional, suavizando patrones de pensamiento y reacciones que nos generan malestar.
+                  </p>
+                  <p>Juntas, potencian el proceso de sanación de manera profunda, armoniosa y respetuosa.</p>
+                  
+                  <h5>¿Cómo es una sesión combinada?</h5>
+                  <ul>
+                    <li>Espacio de escucha: comenzamos con una conversación donde podés expresar lo que estás viviendo, cómo te sentís y qué necesitás.</li>
+                    <li>Aplicación de Reiki: a continuación, realizo una sesión de Reiki (presencial o a distancia) para equilibrar tu energía y facilitar la conexión contigo mismo/a.</li>
+                    <li>Selección de esencias florales: con base en lo conversado y en lo que se movilizó durante la sesión, selecciono una fórmula floral personalizada.</li>
+                    <li>Seguimiento: las flores te acompañan por varias semanas, y el proceso puede continuar en sesiones futuras si lo deseás.</li>
+                  </ul>
+
+                  <h5>¿Para quién es ideal esta combinación?</h5>
+
+                  <p>Esta propuesta es especialmente útil si:</p>
+                  <ul>                    
+                    <li>Estás atravesando un proceso emocional intenso (duelo, ansiedad, ruptura, cambios de vida).</li>
+                    <li>Sentís que algo “te pesa” pero no sabés bien qué.</li>
+                    <li>Querés trabajar tu equilibrio interno desde lo emocional y lo energético al mismo tiempo.</li>
+                    <li>Buscás una experiencia terapéutica integral, sin medicamentos ni intervenciones invasivas.</li>
+                  </ul>
+
+                  <h5>¿Qué beneficios tiene?</h5>
+                  <ul>
+                    <li>Claridad emocional</li>
+                    <li>Mayor estabilidad interna</li>
+                    <li>Mejora del ánimo y la energía vital</li>
+                    <li>Reducción del estrés y la ansiedad</li>
+                    <li>Sensación de armonía y bienestar sostenido en el tiempo</li>
+                  </ul>
+
+                  <h5>Modalidad de atención</h5>
+                  <ul>
+                    <li>Presencial: en un espacio cuidado, silencioso y armonizado</li>
+                    <li>A distancia: Reiki a distancia + fórmula floral personalizada enviada por correo o entregada en mano</li>
+                    <li>Se agenda con cita previa</li>
+                  </ul>
+
+                  <h5>Escucharte, equilibrarte, transformarte</h5>
+                  <p>
+                    Una sesión combinada es más que una técnica. Es un espacio para vos, para reconectar, 
+                    liberar y acompañarte en tus propios procesos de forma amorosa y respetuosa.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+              
+    
       </div>
     </div>
   </section>
@@ -382,65 +491,44 @@
   <section class="contact-us" id="contact-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
-          <div id="map">
-          
-            <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7151.84524236698!2d-122.19494600413192!3d47.56605883252286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490695e625f8965%3A0xf99b055e76477def!2sNewcastle%20Beach%20Park%20Playground%2C%20Bellevue%2C%20WA%2098006%2C%20USA!5e0!3m2!1sen!2sth!4v1644335269264!5m2!1sen!2sth" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
-            <div class="row">
-              <div class="col-lg-4 offset-lg-1">
-                <div class="contact-info">
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <h4>Phone</h4>
-                  <span>010-020-0340</span>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="contact-info">
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <h4>Mobile</h4>
-                  <span>090-080-0760</span>
-                </div>
-              </div>
-            </div>
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h6>Contacto</h6>
+            <h4>Comunícate ahora con <em>nosotros</em></h4>
           </div>
         </div>
-        <div class="col-lg-4">
-          <form id="contact" action="" method="post">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-heading">
-                  <h6>Contacto</h6>
-                  <h4>Contacto <em>directo</em></h4>
-                  <p>Escríbenos para más información, estamos encantados de ayudarte.</p>
-                </div>
+      </div>
+      <div class="col-lg-12 row d-flex justify-content-center">
+        <div class="col-lg-10 col-12">
+            <div class="row" id="contact">
+              <div class="col-lg-6 col-12">
+                <h5>Puedes utilizar el formulario</h5>
+                <p>Escríbenos para más información, estamos encantados de ayudarte.</p>
+                <p>También tienes estos medios de contacto:</p>
+                  <!--p>
+                    <a href="https://wa.me/59898195126" class="main-gradient-button" target="_blank">
+                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                      098 195 126
+                    </a>  
+                    
+                    <br>
+
+                    <a href="mailto:consultas@terapiaholistica.com" class="main-gradient-button" target="_blank">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                      consultas@terapiaholistica.com
+                    </a>  
+                     </p-->                  
               </div>
-              <div class="col-lg-12">
-                <fieldset>
+
+              <div class="col-lg-6 col-12">                
+                <form action="" method="post">
                   <input type="name" name="name" id="name" placeholder="Nombre Completo" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Tu Correo Electrónico" required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
+                  <input type="email" name="email" id="email" placeholder="Tu Correo Electrónico" required>
                   <textarea name="message" id="message" placeholder="Tu Mensaje"></textarea>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
                   <button type="submit" id="form-submit" class="main-gradient-button">Enviar Mensaje</button>
-                </fieldset>
+                </form>
               </div>
             </div>
-          </form>
         </div>
         <!--div class="col-lg-12">
           <ul class="social-icons">
@@ -455,7 +543,7 @@
           <p class="copyright">Copyright © <?php echo date("Y"); ?> Terapia Holística Sebastián Durán. Todos los derechos reservados.
           <br>Desarrollo web: <a rel="sponsored" href="https://mr.uy" target="_blank">mr.uy</a>
         </div>
-      </div>
+      </div>      
     </div>
   </section>
 

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
-                    <a href="index.html" class="logo">
+                    <a href="/" class="logo">
                         <img src="assets/logo/6-white.svg" alt="Logotipo" style="width: 70px;">
                         <img src="assets/logo/8-white.svg" alt="Terapia Holística Sebastián Durán" style="width: 100px;">
                     </a>
