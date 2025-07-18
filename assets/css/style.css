@@ -778,6 +778,8 @@ services
 }
 
 .services .item .icon {
+  font-size: 70px;
+  color: var(--g-primary);
   max-width: 75px;
   margin: 0 auto;
   min-height: 80px;
@@ -818,6 +820,11 @@ our courses
 
 section.our-courses {
   position: relative;
+}
+
+#about img {
+  border-radius: 50px;
+  box-shadow: -30px 30px 10px 0px rgba(255, 245, 245, 0.8);
 }
 
 section.our-courses .section-heading p {
@@ -898,7 +905,7 @@ section.our-courses .card .left-image {
 @media (max-width: 767px) {
   section.our-courses .card .left-image {
     height: 250px;
-    max-height: 250px;
+    object-fit: cover;
     overflow: hidden;
   }
 }
@@ -1061,15 +1068,16 @@ section.simple-cta .left-image {
 }
 
 section.simple-cta h6 {
-  font-size: 17px;
+  font-size: 20px;
   color: #fff;
+  text-align: justify;
 }
 
 section.simple-cta h4 {
-  font-size: 62px;
   font-weight: 900;
+  font-size: 30px;
+  line-height: 50px;
   color: #fff;
-  line-height: 74px;
   margin-top: 20px;
 }
 
@@ -1077,6 +1085,11 @@ section.simple-cta p {
   color: #fff;
   margin-top: 30px;
   margin-bottom: 40px;
+  text-align: justify;
+}
+
+section.simple-cta p span {
+  font-weight: 700;
 }
 
 
@@ -1199,12 +1212,23 @@ section.contact-us:after {
 
 section.contact-us .contact-info {
   background-color: #fff;
-  margin-top: -30px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  display: block;
+  color: var(--g-dark);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
   z-index: 5;
-  position: relative;
   padding: 20px;
+  margin-top: 20px;
+  transition: ease-in-out .4s;
+}
+
+section.contact-us .contact-info:hover {
+  background-color: var(--g-secondary);
+  transition: ease-in-out 1s;
+}
+
+section.contact-us .contact-info a {
+  color: var(--g-dark);
 }
 
 section.contact-us .contact-info .icon i {

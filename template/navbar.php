@@ -11,7 +11,7 @@
                     <ul class="nav">
                         <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
                         <li class="scroll-to-section"><a href="#services">Servicios</a></li>
-                        <li class="scroll-to-section"><a href="#about">Nosotros</a></li>
+                        <li class="scroll-to-section"><a href="#about">Sobre mi</a></li>
                         <!--li class="has-sub">
                             <a href="javascript:void(0)">Pages</a>
                             <ul class="sub-menu">
