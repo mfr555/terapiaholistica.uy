@@ -1,3 +1,9 @@
+<?php
+  require 'vendor/autoload.php';
+  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+  $dotenv->load();
+  $siteKey = htmlspecialchars($_ENV['RECAPTCHA_SITEKEY'], ENT_QUOTES, 'UTF-8');
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,6 +12,9 @@
   <meta name="keywords" content="terapia holística, terapia floral, flores de Bach, Reiki, esencias florales, bienestar, salud emocional, sesiones virtuales, sesiones presenciales, Sebastián Durán">
  
   <?php include('template/head.php') ; ?>  
+
+  <!-- Google ReCaptcha v3 script -->
+  <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $siteKey; ?>"></script>
 </head>
 
 <body>
@@ -364,11 +373,53 @@
               </div>
 
               <div class="col-lg-6 col-12">                
-                <form action="" method="post">
-                  <input type="name" name="name" id="name" placeholder="Nombre Completo" autocomplete="on" required>
+                <form id="form-contacto">
+                  <input type="name" name="nombre" id="nombre" placeholder="Nombre Completo" autocomplete="on" required>
                   <input type="email" name="email" id="email" placeholder="Tu Correo Electrónico" required>
-                  <textarea name="message" id="message" placeholder="Tu Mensaje"></textarea>
+                  <textarea name="mensaje" placeholder="Tu Mensaje"></textarea>
+                  
                   <button type="submit" id="form-submit" class="main-gradient-button">Enviar Mensaje</button>
+                  
+                  <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+                  <div id="mensaje"></div>
+                  <script>
+                    const form = document.getElementById('form-contacto');
+                    const mensajeDiv = document.getElementById('mensaje');
+
+                    form.addEventListener('submit', function (e) {
+                      e.preventDefault();
+                      mensajeDiv.textContent = "Enviando...";
+                      mensajeDiv.className = "";
+
+                      grecaptcha.ready(function () {
+                        grecaptcha.execute("<?php echo $siteKey; ?>", {action: 'formulario'}).then(function (token) {
+                          const formData = new FormData(form);
+                          formData.set('g-recaptcha-response', token);
+
+                          fetch('procesar.php', {
+                            method: 'POST',
+                            body: formData
+                          })
+                          .then(res => res.json())
+                          .then(data => {
+                            if (data.success) {
+                              mensajeDiv.textContent = data.message;
+                              mensajeDiv.className = "text-success";
+                              form.reset();
+                            } else {
+                              mensajeDiv.textContent = data.message;
+                              mensajeDiv.className = "text-error";
+                            }
+                          })
+                          .catch(err => {
+                            mensajeDiv.textContent = "Ocurrió un error inesperado: " + err.message;
+                            mensajeDiv.className = "text-error";
+                          });
+                        });
+                      });
+                    });
+                  </script>
+
                 </form>
               </div>
             </div>
