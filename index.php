@@ -7,6 +7,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <?php include('private-tags/google-analitycs.php'); ?>
+
   <title>Terapia Holística | Bienestar Emocional - Reiki - Flores de Bach | Sebastián Durán</title>
   <meta name="description" content="Terapia Holística: Terapia floral, Reiki, Flores de Bach, esencias florales, bienestar emocional y energético en sesiones presenciales y virtuales.">
   <meta name="keywords" content="terapia holística, terapia floral, flores de Bach, Reiki, esencias florales, bienestar, salud emocional, sesiones virtuales, sesiones presenciales, Sebastián Durán">
