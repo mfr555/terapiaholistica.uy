@@ -5,7 +5,7 @@
                 <nav class="main-nav">
                     <a href="/" class="logo">
                         <img src="assets/logo/6-white.svg" alt="Logotipo" style="width: 70px;">
-                        <img src="assets/logo/8-white.svg" alt="Terapia Holística Sebastián Durán" style="width: 100px;">
+                        <img src="assets/logo/brand.svg" alt="Terapia Holística Sebastián Durán" style="width: 100px;">
                     </a>
                     
                     <ul class="nav">

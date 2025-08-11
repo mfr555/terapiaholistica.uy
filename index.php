@@ -25,7 +25,7 @@
       <div class="row">
         <div class="col-lg-4 align-self-center">
           <div class="header-text">
-            <img class="logo-header" src="assets/logo/4.svg" alt="Terapia Holística Sebastián Durán">
+            <img class="logo-header" src="assets/logo/completo-extra.svg" alt="Terapia Holística Sebastián Durán">
             <div class="main-button-gradient">
               <div class="scroll-to-section"><a href="#contact-section">Contáctanos!</a></div>
             </div>
@@ -256,7 +256,7 @@
       <div class="row">
         <div class="col-lg-5 offset-lg-1">
           <div class="left-image">
-            <img src="assets/images/flores3-1.jpg" alt="Tratamiento con flores de Bach" class="rounded-lg">
+            <img src="assets/images/sd.jpeg" alt="Foto de Sebastián Durán" class="rounded-lg">
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
@@ -294,7 +294,7 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
                 </div>
                 <h4>¿Qué necesito para una sesión?</h4>
                 <p>Solo ganas de conectar contigo mismo/a. En el caso de sesiones online, un lugar tranquilo y sin interrupciones.</p>
