@@ -363,12 +363,12 @@
                     </a>
                   </div>
                   <div class="col-lg-10">
-                    <a href="mailto:consultas@terapiaholistica.com" target="_blank" class="contact-info">
+                    <a href="mailto:consultas@terapiaholistica.uy" target="_blank" class="contact-info">
                       <div class="icon">
                         <i class="fa fa-envelope"></i>
                       </div>
                       <h4>Mail</h4>
-                      <span>consultas@terapiaholistica.com</span>
+                      <span>consultas@terapiaholistica.uy</span>
                     </a>
                   </div>
                 </div>         
