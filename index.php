@@ -443,6 +443,20 @@
     </div>
   </section>
 
+  <!-- Floating share button for small screens -->
+  <div class="floating-share" aria-label="Compartir">
+    <button class="floating-share-btn" type="button" aria-expanded="false" aria-label="Compartir">
+      <i class="fa fa-share-alt" aria-hidden="true"></i>
+    </button>
+    <ul class="floating-share-menu" role="menu" aria-label="Opciones de compartir">
+      <li role="none"><a role="menuitem" href="javascript:void(0)" onclick="compartirRed('facebook')"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+      <li role="none"><a role="menuitem" href="javascript:void(0)" onclick="compartirRed('twitter')"><i class="fa fa-twitter" aria-hidden="true"></i> X</a></li>
+      <li role="none"><a role="menuitem" href="javascript:void(0)" onclick="compartirRed('whatsapp')"><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></li>
+      <li role="none"><a role="menuitem" href="javascript:void(0)" onclick="compartirRed('linkedin')"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      <li role="none"><a role="menuitem" href="javascript:void(0)" onclick="compartirRed('email')"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+    </ul>
+  </div>
+
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
