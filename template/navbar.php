@@ -21,7 +21,21 @@
                             </ul>
                         </li-->
                         <li class="scroll-to-section"><a href="#faq">Preguntas frecuentes</a></li> 
-                        <li class="scroll-to-section"><a href="#contact-section">Contacto</a></li> 
+                        <li class="scroll-to-section"><a href="#contact-section">Contacto</a></li>
+                        <li class="share-section has-sub">
+                            <a href="javascript:void(0)" class="share-icon" title="Compartir">
+                                <i class="fa fa-share-alt"></i>
+                            </a>
+                            <ul class="sub-menu share-menu">
+                                <li><a href="javascript:void(0)" onclick="compartirRed('facebook')" title="Compartir en Facebook"><i class="fa fa-facebook"></i> Facebook</a></li>
+                                <li><a href="javascript:void(0)" onclick="compartirRed('twitter')" title="Compartir en X"><i class="fa fa-twitter"></i> X</a></li>
+                                <li><a href="javascript:void(0)" onclick="compartirRed('whatsapp')" title="Compartir en WhatsApp"><i class="fa fa-whatsapp"></i> WhatsApp</a></li>
+                                <li><a href="javascript:void(0)" onclick="compartirRed('linkedin')" title="Compartir en LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                                <li><a href="javascript:void(0)" onclick="compartirRed('email')" title="Compartir por Email"><i class="fa fa-envelope"></i> Email</a></li>
+                            </ul>
+                        </li>
+
+                        
                     </ul>        
                     <a class='menu-trigger'>
                         <span>Menu</span>

@@ -334,3 +334,36 @@
 
 
 })(window.jQuery);
+
+// Función para compartir en redes sociales
+function compartirRed(red) {
+    const url = window.location.href;
+    const titulo = document.title;
+    let enlaceCompartir = '';
+    
+    switch(red) {
+        case 'facebook':
+            enlaceCompartir = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+            break;
+        case 'twitter':
+            enlaceCompartir = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(titulo)}`;
+            break;
+        case 'whatsapp':
+            enlaceCompartir = `https://wa.me/?text=${encodeURIComponent(titulo + ' ' + url)}`;
+            break;
+        case 'linkedin':
+            enlaceCompartir = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
+            break;
+        case 'email':
+            enlaceCompartir = `mailto:?subject=${encodeURIComponent(titulo)}&body=${encodeURIComponent(url)}`;
+            break;
+    }
+    
+    if(enlaceCompartir) {
+        if(red === 'email') {
+            window.location.href = enlaceCompartir;
+        } else {
+            window.open(enlaceCompartir, '_blank', 'width=600,height=400');
+        }
+    }
+}
