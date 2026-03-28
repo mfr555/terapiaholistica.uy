@@ -349,33 +349,42 @@
         <div class="col-lg-10 col-12">
             <div class="row" id="contact">
               <div class="col-lg-6 col-12 mb-5">
-                <h5>Puedes utilizar el formulario</h5>
-                <p>Escríbenos para más información, estamos encantados de ayudarte.</p>
-                <p>También tienes estos medios de contacto:</p>   
+                <h5>Contacto y redes sociales</h5>
+                <p>Puedes encontrarnos en</p>   
                 <div class="row">
-                  <div class="col-lg-10">
+                  <div class="col-12">
                     <a href="https://wa.me/59898195126" target="_blank" class="contact-info">
-                      <div class="icon">
-                        <i class="fa fa-whatsapp"></i>
+                      <div class="icon">                        
+                        <h6><i class="fa fa-whatsapp icon2"></i> WhatsApp</h6>
+                        <span>098 195 126</span>
                       </div>
-                      <h4>Whatsapp</h4>
-                      <span>098 195 126</span>
                     </a>
                   </div>
-                  <div class="col-lg-10">
+                  <div class="col-l2">
+                    <a href="https://www.instagram.com/sebastianduran.uy/" target="_blank" class="contact-info">
+                      <div class="icon">
+                        <i class="fa fa-instagram icon2"></i>
+                        <h6>Instagram</h6>
+                        <span>@sebastianduran.uy</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-l2">
                     <a href="mailto:consultas@terapiaholistica.uy" target="_blank" class="contact-info">
                       <div class="icon">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fa fa-envelope-o icon2"></i>
+                        <h6>Email</h6>
+                        <span>consultas@terapiaholistica.uy</span>
                       </div>
-                      <h4>Mail</h4>
-                      <span>consultas@terapiaholistica.uy</span>
                     </a>
                   </div>
                 </div>         
               </div>
 
-              <div class="col-lg-6 col-12">                
-                <form id="form-contacto">
+              <div class="col-lg-6 col-12">
+                <h5>Formulario de contacto</h5>
+                <p>Escríbenos para más información, estamos encantados de ayudarte.</p>
+                <form id="form-contacto" class="pt-4" >
                   <input type="name" name="nombre" id="nombre" placeholder="Nombre Completo" autocomplete="on" required>
                   <input type="email" name="email" id="email" placeholder="Tu Correo Electrónico" required>
                   <textarea name="mensaje" placeholder="Tu Mensaje"></textarea>
@@ -423,18 +432,16 @@
                   </script>
 
                 </form>
-              </div>
             </div>
+          </div>
         </div>
-        <!--div class="col-lg-12">
+        <div class="col-lg-12">
           <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="https://www.instagram.com/sebastianduran.uy/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://wa.me/59898195126" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="mailto:consultas@terapiaholistica.uy"><i class="fa fa-envelope"></i></a></li>
           </ul>
-        </div-->
+        </div>
         <div class="col-lg-12">
           <p class="copyright">Copyright © <?php echo date("Y"); ?> Terapia Holística Sebastián Durán. Todos los derechos reservados.
           <br>Desarrollo web: <a rel="sponsored" href="https://mr.uy" target="_blank">mr.uy</a>
