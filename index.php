@@ -54,7 +54,7 @@
         </div>
 
         <div class="d-flex justify-content-center row">
-          <div class="card col-12">
+          <div class="card col-12 p-0">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="assets/images/flores-bach1.webp" class="left-image img-fluid" alt="...">
@@ -118,10 +118,10 @@
             </div>
           </div>  
           
-          <div class="card col-12">
+          <div class="card col-12 p-0">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="assets/images/reiki-hands.webp" class="left-image img-fluid" alt="Reiki">
+                <img src="assets/images/11-crop.jpeg" class="left-image img-fluid" alt="Reiki">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -218,10 +218,10 @@
             </div>
           </div>
 
-          <div class="card col-12">
+          <div class="card col-12 p-0">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="assets/images/combinada.jpg" class="left-image img-fluid" alt="Terapia combinada">
+                <img src="assets/images/10.jpeg" class="left-image img-fluid" alt="Terapia combinada">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -258,7 +258,7 @@
       <div class="row">
         <div class="col-lg-5 offset-lg-1">
           <div class="left-image">
-            <img src="assets/images/sd.jpeg" alt="Foto de Sebastián Durán" class="rounded-lg">
+            <img src="assets/images/17-crop.jpeg" alt="Foto de Sebastián Durán" class="rounded-lg">
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
