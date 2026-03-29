@@ -12,3 +12,4 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/owl.css">
 <link rel="stylesheet" href="assets/css/lightbox.css">
+<link href="https://cdn.lineicons.com/5.1/line/lineicons.css" rel="stylesheet"/>

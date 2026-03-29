@@ -54,7 +54,7 @@
         </div>
 
         <div class="d-flex justify-content-center row">
-          <div class="card col-12 p-0">
+          <div class="card col-12">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="assets/images/flores-bach1.webp" class="left-image img-fluid" alt="...">
@@ -118,7 +118,7 @@
             </div>
           </div>  
           
-          <div class="card col-12 p-0">
+          <div class="card col-12">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="assets/images/11-crop.jpeg" class="left-image img-fluid" alt="Reiki">
@@ -218,7 +218,7 @@
             </div>
           </div>
 
-          <div class="card col-12 p-0">
+          <div class="card col-12">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="assets/images/10.jpeg" class="left-image img-fluid" alt="Terapia combinada">
@@ -296,7 +296,16 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="lni lni-heart" aria-hidden="true"></i>
+                </div>
+                <h4>¿Qué sistema floral es mejor para mí?</h4>
+                <p>Durante la sesión, elijo el sistema o la combinación más adecuada para vos, según tus emociones, vivencias y necesidades.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <i class="lni lni-star-fat" aria-hidden="true"></i>
                 </div>
                 <h4>¿Qué necesito para una sesión?</h4>
                 <p>Solo ganas de conectar contigo mismo/a. En el caso de sesiones online, un lugar tranquilo y sin interrupciones.</p>
@@ -305,7 +314,7 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <i class="fa fa-medkit"></i>
+                  <i class="lni lni-hand-taking-leaf-1"></i>
                 </div>
                 <h4>¿Es compatible con otros tratamientos?</h4>
                 <p>Sí. Las terapias que ofrezco son complementarias y no sustituyen tratamientos médicos, pero pueden acompañarlos eficazmente.</p>
@@ -314,19 +323,10 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  <i class="lni lni-calendar-days" aria-hidden="true"></i>
                 </div>
                 <h4>¿Cuántas sesiones necesito?</h4>
                 <p>Depende del motivo de consulta y el proceso personal. En la primera entrevista evaluamos juntos un posible camino.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <i class="fa fa-heart"></i>
-                </div>
-                <h4>¿Qué sistema floral es mejor para mí?</h4>
-                <p>Durante la sesión, elijo el sistema o la combinación más adecuada para vos, según tus emociones, vivencias y necesidades.</p>
               </div>
             </div>
           </div>
